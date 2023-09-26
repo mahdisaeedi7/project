@@ -357,6 +357,7 @@ body {
 .main__img {
     margin: 3rem auto;
     width: 31rem;
+    max-width: 100%;
 }
 .main__photo {
     width: 100%;
@@ -606,6 +607,7 @@ body {
 
     .footer__content {
         flex-direction: column;
+    }
     
 }
 
@@ -624,5 +626,26 @@ body {
 
     .protofio__img_items {
         width: 100%;
+    }
+
+    .footer__content{
+        flex-direction: column;
+    }
+
+    .footer__input {
+        max-width: 100%;
+        position: relative;
+    }
+
+    .footer__input input {
+        max-width: 100%;
+    }
+
+    .footer__butten {
+      
+        max-width: 100%;
+       position: absolute;
+       right: 0;
+       padding: 0.5rem;
     }
 }
